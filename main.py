@@ -2,7 +2,7 @@ from tkinter import *
 import dev.factories as Qx
 
 """
-Application 
+Start 
 """
 class App():	
 	def __init__(self, root):
@@ -27,10 +27,13 @@ class App():
 		self.root.config(bg=colour)
 		return self
 
-	def factory(self):
+	def setup(self):
 		factory=Qx.Setup(self.root)
 		factory.make()
 
+"""
+End
+"""
 if __name__ == "__main__":
 	root=Tk()
 	
@@ -41,6 +44,6 @@ if __name__ == "__main__":
 	  , activeForeground="#ffffff")
 
 	app=App(root)
-	app.title("New Application").size("{}x{}".format(768, 512)).factory()
+	app.title("New Application").size("{}x{}".format(768, 512)).setup()
 	
 	root.mainloop()
