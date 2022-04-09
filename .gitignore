@@ -1,0 +1,4 @@
+dev/
+docs/*.txt
+**/__pycache__
+*.pyc
