@@ -44,6 +44,6 @@ if __name__ == "__main__":
 	  , activeForeground="#ffffff")
 
 	app=App(root)
-	app.title("New Application").size("{}x{}".format(768, 512)).setup()
+	app.title("New Application").size("{}x{}".format(256, 256)).setup()
 	
 	root.mainloop()

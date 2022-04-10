@@ -1,6 +1,8 @@
-from tkinter import *
-from quinn.core import *
+#from lib.core import *
 
+from tkinter import *
+from lib.core import *
+from lib.managers import *
 
 """
 Sharing common traits between several TKinter widgets, such as layout management

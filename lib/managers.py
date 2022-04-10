@@ -1,5 +1,5 @@
-from quinn.widgets import *
-
+from lib.widgets import *
+from lib.core import *
 
 """
 Radio Button manager, store and facilitate access to one or more radio buttons

@@ -1,5 +1,4 @@
 
-
 """
 Faciliate access to a command palette through an abstraction
 """
